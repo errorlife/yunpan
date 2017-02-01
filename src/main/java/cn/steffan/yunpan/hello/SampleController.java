@@ -19,12 +19,13 @@ public class SampleController {
 	@RequestMapping("/")
 	@ResponseBody
 	String index(){
+		System.out.println("-----------------SampleController------------------");
 		return "index";
 	}
 	
-	public static void main(String[] args) throws Exception {
+/*	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		SpringApplication.run(SampleController.class, args);
-	}
+	}*/
 
 }
