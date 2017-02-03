@@ -24,5 +24,6 @@ $('input[type="submit"]').click(function(){
 		    console.log('no file selected');
 		  }
 	});
+	console.log("end upload...");
 });
 

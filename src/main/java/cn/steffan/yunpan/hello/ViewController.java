@@ -23,6 +23,12 @@ public class ViewController {
 		return "ok";
 	}
 	
+	@RequestMapping("/fileController")
+	public String getFileController(){
+		System.out.println("--------------fileController---------------------");
+		return "ok";
+	}
+	
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		SpringApplication.run(ViewController.class, args);
