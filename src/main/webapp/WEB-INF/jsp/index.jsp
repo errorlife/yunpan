@@ -1,25 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-<!-- Required meta tags -->
 <meta charset="utf-8">
-<meta name="viewport"
-	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- Bootstrap CSS -->
-<link rel="stylesheet"
-	href="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
-	integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
-	crossorigin="anonymous">
-<!-- jQuery first, then Tether, then Bootstrap JS. -->
-<script src="https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
-<!-- <script src="../js/upload/jquery.ajaxfileupload.js"></script> -->
-<link rel="stylesheet" type="text/css"
-	href="../js/upload/webuploader-0.1.5/webuploader.css">
+<link rel="stylesheet" type="text/css" href="../js/upload/webuploader-0.1.5/webuploader.css">
 
-<script src="../js/upload/webuploader-0.1.5/webuploader.nolog.min.js"></script>
 
 </head>
 <body>
@@ -31,7 +18,17 @@
 			<button id="ctlBtn" class="btn btn-default">开始上传</button>
 		</div>
 	</div>
+
+<!-- 	<div id="uploader-demo">
+		用来存放item
+		<div id="fileList" class="uploader-list"></div>
+		<div id="filePicker">选择图片</div>
+	</div> -->
 </body>
-<script src="../js/upload/upload.js"></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
+
+<script type="text/javascript"src="../js/upload/webuploader-0.1.5/webuploader.nolog.min.js"></script>
+
+<script type="text/javascript" src="../js/upload/upload.js"></script>
 
 </html>
