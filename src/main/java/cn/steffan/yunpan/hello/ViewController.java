@@ -45,7 +45,7 @@ public class ViewController {
                * 3、文件格式;
                * 4、文件大小的限制;
                */
-              BufferedOutputStream out = new BufferedOutputStream(new FileOutputStream(new File(file.getOriginalFilename())));
+              BufferedOutputStream out = new BufferedOutputStream(new FileOutputStream(new File("d:/"+file.getOriginalFilename())));
               out.write(file.getBytes());
               out.flush();
               out.close();
