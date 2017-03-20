@@ -21,6 +21,7 @@ public class ViewController {
 	@RequestMapping("/")
 	public String getIndex(){
 		System.out.println("-----------------ViewController1------------------");
+		// 测试test包
 		return "index";
 	}	
 	
